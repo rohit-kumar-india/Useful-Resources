@@ -1,0 +1,16 @@
+Change the following details in all the component.ts file where present
+- Phone
+- Email
+- Address
+- Title
+- Packages
+
+Create a new Formspree account from the mailId 
+Create 3 new form api 
+- Contact Us
+- Enquiry
+- Book Now
+Update the new APIs in the following file
+- Contact Us-----     contact-form.component.ts
+- Enquiry   -----     enquiry.component.ts
+- Book Now  -----     app.component.ts

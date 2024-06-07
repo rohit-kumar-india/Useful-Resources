@@ -1,0 +1,19 @@
+Deploy on FireBase
+===============================
+
+Firebase Setup --------- once per project
+----------------------
+Create a Account or Sign in on Firebase
+Create a project
+Go to Hosting Menu
+
+install Firebase CLI 
+- Run the command in the project directory 
+	npm install -g firebase-tools
+
+Initiate your project
+	firebase login
+	firebase init
+
+Deploy to FireBase Hosting ------------ for deploying any changes
+	firebase deploy

@@ -1,0 +1,11 @@
+
+Angular Commands
+=========================
+
+npm install -g @angular/cli@latest
+ng new <Project Name>
+ng serve
+
+ng g c <Component Name>
+
+

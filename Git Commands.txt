@@ -1,0 +1,36 @@
+Setup Git in System
+==========================
+Download latest git from https://git-scm.com/
+Install the doenloaded Git in system
+Set Environment Variable path to C:\Program Files\Git\bin
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+Setup project on GitHub
+============================
+Register or Sign In on GitHub portal
+Create a repository with project name
+Run these commands on system in the project directory
+	git init
+	git status
+	git add .
+	git commit -m "initial commit"
+	git remote add origin <repository-url>   --- change repository-url
+	git branch -M main
+	git push -u origin main
+
+
+Commit changes on GitHub
+==============================
+	git status
+	git add .
+	git commit -m "changes in the index.html"
+	git push origin
+
+
+Deploy on GitHub
+=====================
+npm install -g angular-cli-ghpages
+ng build --base-href "https://<user-name>.github.io/<repo>/"   -- change the user-name and repo value
+ngh --dir <build-location>   -- change the build-location
