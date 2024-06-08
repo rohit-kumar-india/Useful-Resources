@@ -32,5 +32,5 @@ Commit changes on GitHub
 Deploy on GitHub
 =====================
 npm install -g angular-cli-ghpages
-ng build --base-href "https://<user-name>.github.io/<repo>/"   -- change the user-name and repo value
-ngh --dir <build-location>   -- change the build-location
+ng build --base-href "https://<user-name>.github.io/<repo>/"   -- change the user-name and repo value (ex - ng build --base-href "https://rohit-kumar-india.github.io/Old-Coin-Agency/")
+ngh --dir <build-location>   -- change the build-location (ex - ngh --dir dist/Old-Coin-Agency)
