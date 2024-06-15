@@ -34,3 +34,17 @@ Deploy on GitHub
 npm install -g angular-cli-ghpages
 ng build --base-href "https://<user-name>.github.io/<repo>/"   -- change the user-name and repo value (ex - ng build --base-href "https://rohit-kumar-india.github.io/Old-Coin-Agency/")
 ngh --dir <build-location>   -- change the build-location (ex - ngh --dir dist/Old-Coin-Agency)
+
+
+If the folder was already being tracked before you updated the .gitignore file. 
+Git does not retroactively untrack files or directories that were previously committed.
+need to remove the nbproject folder from the repository while keeping it locally.
+======================================
+1. Remove nbproject from tracking
+git rm -r --cached nbproject
+
+2. Commit the changes
+git commit -m "Remove nbproject folder from tracking"
+
+3. Push the changes
+git push origin main
